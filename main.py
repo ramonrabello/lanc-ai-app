@@ -125,10 +125,7 @@ def process_uploaded_file(uploaded_file):
     """Lida com arquivos CSV/XLSX diretos ou ZIPs contendo CSVs/XMLs."""
     
     # Limpa o estado e arquivos temp para começar um NOVO upload
-    st.session_state['df_data_analysis'] = None
-    st.session_state['df_lancamentos'] = None
-    st.session_state['mode'] = 'none'
-    st.session_state['initial_summary'] = None 
+    clear_session_state() 
     
     # Limpa arquivos da pasta temp, ignorando erros de permissão
     for f in os.listdir(TEMP_FOLDER):
@@ -202,6 +199,12 @@ def process_uploaded_file(uploaded_file):
     # CENÁRIO 3: NENHUM ARQUIVO VÁLIDO ENCONTRADO
     st.session_state['mode'] = 'none'
     st.warning("Nenhum modo de processamento foi ativado. Por favor, carregue um arquivo válido.")
+
+def clear_session_state():
+    st.session_state['df_data_analysis'] = None
+    st.session_state['df_lancamentos'] = None
+    st.session_state['mode'] = 'none'
+    st.session_state['initial_summary'] = None
 
 
 # --- HEADER E IDENTIDADE VISUAL ---
