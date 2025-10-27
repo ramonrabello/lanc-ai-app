@@ -1,0 +1,22 @@
+# Dependências necessárias para o LançAI: Agente Autônomo Contábil-Fiscal
+
+# Interface Gráfica
+streamlit
+pandas
+
+# Agente e LLM
+python-dotenv
+langchain-core
+langchain-google-genai
+google-generativeai
+
+# Manipulação de Dados (XML/ZIP)
+# xml.etree.ElementTree é nativo do Python, mas pandas é essencial
+# (Geralmente, nenhuma dependência extra é estritamente necessária para ZIP/XML básicos)
+
+# Versões recomendadas para evitar conflitos (opcional, mas bom para estabilidade):
+# Se você tiver problemas, use as versões mais recentes ou teste com as do seu projeto original:
+# pandas==2.2.2 
+# streamlit==1.36.0
+# python-dotenv==1.0.1
+# langchain-google-genai==2.1.5
