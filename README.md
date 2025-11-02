@@ -75,20 +75,19 @@ O projeto segue a paleta definida para a indústria metalúrgica, focando na usa
 | :--- | :--- | :--- |
 | **Primária** (Botões) | Terracota Metálico | `#C05533` |
 | **Secundária** (Texto, Elementos) | Prata Holográfico | `#8FA3BF` |
+| **Fundo Escuro** (Header) | Grafite Industrial | `#1E2835` |
+| **Fundo Claro** (App Background) | Aço Brilhante | `#F0F4F9` |
+| **Erro** (Não Mapeado) | Ferro Oxidado | `#B34A4A` |
+| **Informação** (Alertas) | Cobalto | `#4A7DA8` |
 
 ## 📄 Licença
 
 MIT License
 
-Copyright (c) 2025 Ramon Rabello
+Copyright (c) 2025 Ramon Rabello (em nome do Grupo_284 do Curso I2A2 - Agentes Autônomos)
 
 A permissão é concedida, gratuitamente, a qualquer pessoa que obtenha uma cópia deste software e dos arquivos de documentação associados (o "Software"), para lidar com o Software sem restrições, incluindo, sem limitação, os direitos de usar, copiar, modificar, mesclar, publicar, distribuir, sublicenciar e/ou vender cópias do Software, e permitir que pessoas a quem o Software é fornecido o façam, sujeito às seguintes condições:
 
 O aviso de copyright acima e este aviso de permissão deverão ser incluídos em todas as cópias ou partes substanciais do Software.
 
 O SOFTWARE É FORNECIDO "NO ESTADO EM QUE SE ENCONTRA", SEM GARANTIA DE QUALQUER TIPO, EXPRESSA OU IMPLÍCITA, INCLUINDO, MAS NÃO SE LIMITANDO ÀS GARANTIAS DE COMERCIALIZAÇÃO, ADEQUAÇÃO A UM DETERMINADO FIM E NÃO VIOLAÇÃO. EM NENHUMA HIPÓTESE OS AUTORES OU DETENTORES DOS DIREITOS AUTORAIS SERÃO RESPONSÁVEIS POR QUALQUER REIVINDICAÇÃO, DANO OU OUTRA RESPONSABILIDADE, SEJA EM UMA AÇÃO DE CONTRATO, DELITO OU DE OUTRA FORMA, DECORRENTE DE, OU EM CONEXÃO COM O SOFTWARE OU O USO OU OUTRAS NEGOCIAÇÕES NO SOFTWARE.
-
-| **Fundo Escuro** (Header) | Grafite Industrial | `#1E2835` |
-| **Fundo Claro** (App Background) | Aço Brilhante | `#F0F4F9` |
-| **Erro** (Não Mapeado) | Ferro Oxidado | `#B34A4A` |
-| **Informação** (Alertas) | Cobalto | `#4A7DA8` |
